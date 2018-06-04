@@ -1,20 +1,4 @@
 object SolveNumberPlace {
-    /*
-    public static void main(String args[]) throws Exception {
-        int numberPlace[][] = {
-                {0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0}};
-        solve(numberPlace);
-        System.out.println(Arrays.deepToString(numberPlace));
-    }
-    */
 
     @Throws(Exception::class)
     fun solve(numberPlace: Array<IntArray>): Array<IntArray> {
